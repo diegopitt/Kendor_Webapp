@@ -65,9 +65,9 @@
         <text>Kendor%20Wood</text>
       </controlProperties>
     </control>
-    <control controlID="17" controlTypeID="com.balsamiq.mockups::Accordion" x="370" y="166" w="206" h="250" measuredW="150" measuredH="213" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Accordion" x="370" y="166" w="206" h="151" measuredW="150" measuredH="105" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Select%20Species%0ASelect%20Outer%0ASelect%20Inner%0ASelect%20Style%0ASelect%20Panel</text>
+        <text>Select%20Species</text>
       </controlProperties>
     </control>
     <control controlID="18" controlTypeID="com.balsamiq.mockups::Image" x="372" y="196" w="64" h="49" measuredW="120" measuredH="120" zOrder="14" locked="false" isInGroup="-1">
@@ -126,43 +126,43 @@
         <text>Kendor%20Wood</text>
       </controlProperties>
     </control>
-    <control controlID="29" controlTypeID="com.balsamiq.mockups::Accordion" x="679" y="166" w="206" h="250" measuredW="150" measuredH="213" zOrder="24" locked="false" isInGroup="-1">
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Accordion" x="679" y="166" w="206" h="151" measuredW="150" measuredH="105" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
-        <selectedIndex>1</selectedIndex>
-        <text>Select%20Species%0ASelect%20Outer%0ASelect%20Inner%0ASelect%20Style%0ASelect%20Panel</text>
+        <selectedIndex>0</selectedIndex>
+        <text>Select%20Outer</text>
       </controlProperties>
     </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::Image" x="686" y="229" w="57" h="46" measuredW="65" measuredH="50" zOrder="25" locked="false" isInGroup="-1">
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Image" x="688" y="201" w="57" h="46" measuredW="65" measuredH="50" zOrder="25" locked="false" isInGroup="-1">
       <controlProperties>
         <src>http%3A//www.kendorwood.com/Outer/outer_A.png</src>
         <text>A</text>
       </controlProperties>
     </control>
-    <control controlID="38" controlTypeID="com.balsamiq.mockups::Image" x="750" y="229" w="57" h="46" measuredW="65" measuredH="50" zOrder="26" locked="false" isInGroup="-1">
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Image" x="752" y="201" w="57" h="46" measuredW="65" measuredH="50" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
         <src>http%3A//www.kendorwood.com/Outer/outer_B.png</src>
         <text>B</text>
       </controlProperties>
     </control>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::Image" x="815" y="230" w="57" h="46" measuredW="65" measuredH="50" zOrder="27" locked="false" isInGroup="-1">
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Image" x="817" y="202" w="57" h="46" measuredW="65" measuredH="50" zOrder="27" locked="false" isInGroup="-1">
       <controlProperties>
         <src>http%3A//www.kendorwood.com/Outer/outer_C.png</src>
         <text>C</text>
       </controlProperties>
     </control>
-    <control controlID="40" controlTypeID="com.balsamiq.mockups::Image" x="686" y="282" w="57" h="46" measuredW="65" measuredH="50" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Image" x="688" y="254" w="57" h="46" measuredW="65" measuredH="50" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
         <src>http%3A//www.kendorwood.com/Outer/outer_CC.png</src>
         <text>CC</text>
       </controlProperties>
     </control>
-    <control controlID="41" controlTypeID="com.balsamiq.mockups::Image" x="750" y="282" w="57" h="46" measuredW="65" measuredH="50" zOrder="29" locked="false" isInGroup="-1">
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Image" x="752" y="254" w="57" h="46" measuredW="65" measuredH="50" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
         <src>http%3A//www.kendorwood.com/Outer/outer_D.png</src>
         <text>D</text>
       </controlProperties>
     </control>
-    <control controlID="42" controlTypeID="com.balsamiq.mockups::Image" x="815" y="283" w="57" h="46" measuredW="65" measuredH="50" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Image" x="817" y="255" w="57" h="46" measuredW="65" measuredH="50" zOrder="30" locked="false" isInGroup="-1">
       <controlProperties>
         <src>http%3A//www.kendorwood.com/Outer/outer_G.png</src>
         <text>G</text>
@@ -187,105 +187,105 @@
         <text>Kendor%20Wood</text>
       </controlProperties>
     </control>
-    <control controlID="47" controlTypeID="com.balsamiq.mockups::Accordion" x="987" y="166" w="206" h="250" measuredW="150" measuredH="213" zOrder="35" locked="false" isInGroup="-1">
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Accordion" x="987" y="166" w="206" h="151" measuredW="150" measuredH="105" zOrder="35" locked="false" isInGroup="-1">
       <controlProperties>
-        <selectedIndex>2</selectedIndex>
-        <text>Select%20Species%0ASelect%20Outer%0ASelect%20Inner%0ASelect%20Style%0ASelect%20Panel</text>
+        <selectedIndex>0</selectedIndex>
+        <text>Select%20Inner</text>
       </controlProperties>
     </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Image" x="997" y="257" w="57" h="46" measuredW="70" measuredH="50" zOrder="36" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Image" x="997" y="201" w="57" h="46" measuredW="70" measuredH="50" zOrder="36" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <src>http%3A//www.kendorwood.com/Inner/inner_1.png</src>
         <text>1%20Bead</text>
       </controlProperties>
     </control>
-    <control controlID="55" controlTypeID="com.balsamiq.mockups::Image" x="1062" y="257" w="57" h="46" measuredW="70" measuredH="50" zOrder="37" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Image" x="1062" y="201" w="57" h="46" measuredW="70" measuredH="50" zOrder="37" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <src>http%3A//www.kendorwood.com/Inner/inner_2.png</src>
         <text>2%20Beads</text>
       </controlProperties>
     </control>
-    <control controlID="56" controlTypeID="com.balsamiq.mockups::Image" x="1126" y="257" w="57" h="46" measuredW="70" measuredH="50" zOrder="38" locked="false" isInGroup="-1">
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Image" x="1126" y="201" w="57" h="46" measuredW="70" measuredH="50" zOrder="38" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <src>http%3A//www.kendorwood.com/Inner/inner_AR.png</src>
         <text>3%20Beads</text>
       </controlProperties>
     </control>
-    <control controlID="57" controlTypeID="com.balsamiq.mockups::Image" x="997" y="313" w="57" h="46" measuredW="70" measuredH="50" zOrder="39" locked="false" isInGroup="-1">
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Image" x="997" y="257" w="57" h="46" measuredW="70" measuredH="50" zOrder="39" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <src>http%3A//www.kendorwood.com/Inner/inner_FO.png</src>
         <text>FO</text>
       </controlProperties>
     </control>
-    <control controlID="58" controlTypeID="com.balsamiq.mockups::Image" x="1062" y="313" w="57" h="46" measuredW="70" measuredH="50" zOrder="40" locked="false" isInGroup="-1">
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Image" x="1062" y="257" w="57" h="46" measuredW="70" measuredH="50" zOrder="40" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <src>http%3A//www.kendorwood.com/Inner/inner_FK.png</src>
         <text>FK</text>
       </controlProperties>
     </control>
-    <control controlID="59" controlTypeID="com.balsamiq.mockups::Image" x="1126" y="313" w="57" h="46" measuredW="70" measuredH="50" zOrder="41" locked="false" isInGroup="-1">
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Image" x="1126" y="257" w="57" h="46" measuredW="70" measuredH="50" zOrder="41" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <src>http%3A//www.kendorwood.com/Inner/inner_FM.png</src>
         <text>FM</text>
       </controlProperties>
     </control>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::iPhone" x="1247" y="24" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="42" locked="false" isInGroup="-1"/>
-    <control controlID="61" controlTypeID="com.balsamiq.mockups::PointyButton" x="1281" y="130" w="36" h="-1" measuredW="19" measuredH="27" zOrder="43" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::iPhone" x="1550" y="25" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="42" locked="false" isInGroup="-1"/>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::PointyButton" x="1584" y="131" w="36" h="-1" measuredW="19" measuredH="27" zOrder="43" locked="false" isInGroup="-1">
       <controlProperties>
         <direction>left</direction>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="62" controlTypeID="com.balsamiq.mockups::PointyButton" x="1461" y="130" w="35" h="-1" measuredW="19" measuredH="27" zOrder="44" locked="false" isInGroup="-1">
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::PointyButton" x="1764" y="131" w="35" h="-1" measuredW="19" measuredH="27" zOrder="44" locked="false" isInGroup="-1">
       <controlProperties>
         <direction>right</direction>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="63" controlTypeID="com.balsamiq.mockups::Label" x="1335" y="132" w="110" h="-1" measuredW="79" measuredH="21" zOrder="45" locked="false" isInGroup="-1">
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Label" x="1636" y="134" w="110" h="-1" measuredW="79" measuredH="21" zOrder="45" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
         <text>Kendor%20Wood</text>
       </controlProperties>
     </control>
-    <control controlID="64" controlTypeID="com.balsamiq.mockups::Accordion" x="1285" y="165" w="206" h="251" measuredW="150" measuredH="321" zOrder="46" locked="false" isInGroup="-1">
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Accordion" x="1588" y="166" w="206" h="152" measuredW="150" measuredH="213" zOrder="46" locked="false" isInGroup="-1">
       <controlProperties>
-        <selectedIndex>3</selectedIndex>
-        <text>Select%20Species%0ASelect%20Outer%0ASelect%20Inner%0ASelect%20Style%0A%09Drawer%0A%09Square%20Wainscoting%0A%09Square%0A%09Arch%0ASelect%20Panel</text>
+        <selectedIndex>0</selectedIndex>
+        <text>Select%20Style%0A%09Drawer%0A%09Square%20Wainscoting%0A%09Square%0A%09Arch</text>
       </controlProperties>
     </control>
-    <control controlID="71" controlTypeID="com.balsamiq.mockups::iPhone" x="1544" y="25" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="47" locked="false" isInGroup="-1"/>
-    <control controlID="72" controlTypeID="com.balsamiq.mockups::PointyButton" x="1578" y="131" w="36" h="-1" measuredW="19" measuredH="27" zOrder="48" locked="false" isInGroup="-1">
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::iPhone" x="1246" y="25" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="47" locked="false" isInGroup="-1"/>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::PointyButton" x="1280" y="131" w="36" h="-1" measuredW="19" measuredH="27" zOrder="48" locked="false" isInGroup="-1">
       <controlProperties>
         <direction>left</direction>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="73" controlTypeID="com.balsamiq.mockups::PointyButton" x="1758" y="131" w="35" h="-1" measuredW="19" measuredH="27" zOrder="49" locked="false" isInGroup="-1">
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::PointyButton" x="1460" y="131" w="35" h="-1" measuredW="19" measuredH="27" zOrder="49" locked="false" isInGroup="-1">
       <controlProperties>
         <direction>right</direction>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="1632" y="133" w="110" h="-1" measuredW="79" measuredH="21" zOrder="50" locked="false" isInGroup="-1">
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="1334" y="133" w="110" h="-1" measuredW="79" measuredH="21" zOrder="50" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
         <text>Kendor%20Wood</text>
       </controlProperties>
     </control>
-    <control controlID="75" controlTypeID="com.balsamiq.mockups::Accordion" x="1580" y="166" w="206" h="250" measuredW="150" measuredH="213" zOrder="51" locked="false" isInGroup="-1">
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Accordion" x="1282" y="166" w="206" h="151" measuredW="150" measuredH="105" zOrder="51" locked="false" isInGroup="-1">
       <controlProperties>
-        <selectedIndex>4</selectedIndex>
-        <text>Select%20Species%0ASelect%20Outer%0ASelect%20Inner%0ASelect%20Style%0ASelect%20Panel</text>
+        <selectedIndex>0</selectedIndex>
+        <text>Select%20Panel</text>
       </controlProperties>
     </control>
-    <control controlID="76" controlTypeID="com.balsamiq.mockups::Image" x="1722" y="309" w="57" h="31" measuredW="120" measuredH="50" zOrder="52" locked="false" isInGroup="-1">
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Image" x="1424" y="197" w="57" h="31" measuredW="120" measuredH="50" zOrder="52" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <size>10</size>
@@ -293,12 +293,12 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="78" controlTypeID="com.balsamiq.mockups::Paragraph" x="1588" y="315" w="123" h="31" measuredW="200" measuredH="80" zOrder="53" locked="false" isInGroup="-1">
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Paragraph" x="1290" y="203" w="123" h="31" measuredW="200" measuredH="80" zOrder="53" locked="false" isInGroup="-1">
       <controlProperties>
         <text>SL%20Flipped%20w/%202%20Beads</text>
       </controlProperties>
     </control>
-    <control controlID="79" controlTypeID="com.balsamiq.mockups::Image" x="1722" y="344" w="57" h="31" measuredW="120" measuredH="50" zOrder="54" locked="false" isInGroup="-1">
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Image" x="1424" y="232" w="57" h="31" measuredW="120" measuredH="50" zOrder="54" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <size>10</size>
@@ -306,12 +306,12 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="80" controlTypeID="com.balsamiq.mockups::Paragraph" x="1588" y="350" w="138" h="33" measuredW="200" measuredH="80" zOrder="55" locked="false" isInGroup="-1">
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Paragraph" x="1290" y="238" w="138" h="33" measuredW="200" measuredH="80" zOrder="55" locked="false" isInGroup="-1">
       <controlProperties>
         <text>SL%20Flipped%20w/%20v%20grooves</text>
       </controlProperties>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::Image" x="1721" y="385" w="57" h="31" measuredW="120" measuredH="50" zOrder="56" locked="false" isInGroup="-1">
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Image" x="1423" y="273" w="57" h="31" measuredW="120" measuredH="50" zOrder="56" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <size>10</size>
@@ -319,7 +319,7 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="82" controlTypeID="com.balsamiq.mockups::Paragraph" x="1588" y="398" w="138" h="23" measuredW="200" measuredH="80" zOrder="57" locked="false" isInGroup="-1">
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Paragraph" x="1290" y="286" w="138" h="23" measuredW="200" measuredH="80" zOrder="57" locked="false" isInGroup="-1">
       <controlProperties>
         <text>UAR%20drf</text>
       </controlProperties>
@@ -569,12 +569,12 @@
         <text>Preview%20Door</text>
       </controlProperties>
     </control>
-    <control controlID="126" controlTypeID="com.balsamiq.mockups::Button" x="1284" y="418" w="208" h="27" measuredW="101" measuredH="27" zOrder="100" locked="false" isInGroup="-1">
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::Button" x="1587" y="419" w="208" h="27" measuredW="101" measuredH="27" zOrder="100" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Preview%20Door</text>
       </controlProperties>
     </control>
-    <control controlID="127" controlTypeID="com.balsamiq.mockups::Button" x="1578" y="418" w="208" h="27" measuredW="101" measuredH="27" zOrder="101" locked="false" isInGroup="-1">
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::Button" x="1280" y="418" w="208" h="27" measuredW="101" measuredH="27" zOrder="101" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Preview%20Door</text>
       </controlProperties>
@@ -849,6 +849,162 @@
       <controlProperties>
         <color>16777215</color>
         <text>Send</text>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::PointyButton" x="372" y="322" w="70" h="-1" measuredW="70" measuredH="27" zOrder="152" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>left</direction>
+        <text>Previous</text>
+      </controlProperties>
+    </control>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::PointyButton" x="504" y="323" w="70" h="-1" measuredW="47" measuredH="27" zOrder="153" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Next</text>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Canvas" x="372" y="349" w="198" h="67" measuredW="100" measuredH="70" zOrder="154" locked="false" isInGroup="-1"/>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Image" x="447" y="320" w="49" h="28" measuredW="120" measuredH="120" zOrder="155" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Species/ash.jpg</src>
+        <text>ash</text>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::PointyButton" x="681" y="321" w="70" h="-1" measuredW="70" measuredH="27" zOrder="156" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>left</direction>
+        <text>Previous</text>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::PointyButton" x="813" y="322" w="70" h="-1" measuredW="47" measuredH="27" zOrder="157" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Next</text>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::Canvas" x="681" y="348" w="198" h="67" measuredW="100" measuredH="70" zOrder="158" locked="false" isInGroup="-1"/>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Image" x="756" y="319" w="49" h="28" measuredW="120" measuredH="120" zOrder="159" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Species/ash.jpg</src>
+        <text>ash</text>
+      </controlProperties>
+    </control>
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::PointyButton" x="989" y="320" w="70" h="-1" measuredW="70" measuredH="27" zOrder="160" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>left</direction>
+        <text>Previous</text>
+      </controlProperties>
+    </control>
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::PointyButton" x="1121" y="321" w="70" h="-1" measuredW="47" measuredH="27" zOrder="161" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Next</text>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::Canvas" x="989" y="347" w="198" h="67" measuredW="100" measuredH="70" zOrder="162" locked="false" isInGroup="-1"/>
+    <control controlID="192" controlTypeID="com.balsamiq.mockups::Image" x="1064" y="318" w="49" h="28" measuredW="120" measuredH="120" zOrder="163" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Species/ash.jpg</src>
+        <text>ash</text>
+      </controlProperties>
+    </control>
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::Image" x="996" y="358" w="58" h="40" measuredW="65" measuredH="50" zOrder="164" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Outer/outer_A.png</src>
+        <text>A</text>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Image" x="1054" y="357" w="57" h="41" measuredW="70" measuredH="50" zOrder="165" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <src>http%3A//www.kendorwood.com/Inner/inner_2.png</src>
+        <text>2%20Beads</text>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Image" x="694" y="362" w="58" h="40" measuredW="65" measuredH="50" zOrder="166" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Outer/outer_A.png</src>
+        <text>A</text>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::PointyButton" x="1284" y="321" w="70" h="-1" measuredW="70" measuredH="27" zOrder="167" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>left</direction>
+        <text>Previous</text>
+      </controlProperties>
+    </control>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::PointyButton" x="1416" y="322" w="70" h="-1" measuredW="47" measuredH="27" zOrder="168" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Next</text>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::Canvas" x="1284" y="348" w="198" h="67" measuredW="100" measuredH="70" zOrder="169" locked="false" isInGroup="-1"/>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Image" x="1359" y="319" w="49" h="28" measuredW="120" measuredH="120" zOrder="170" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Species/ash.jpg</src>
+        <text>ash</text>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::Image" x="1291" y="359" w="58" h="40" measuredW="65" measuredH="50" zOrder="171" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Outer/outer_A.png</src>
+        <text>A</text>
+      </controlProperties>
+    </control>
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::Image" x="1349" y="358" w="57" h="41" measuredW="70" measuredH="50" zOrder="172" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <src>http%3A//www.kendorwood.com/Inner/inner_2.png</src>
+        <text>2%20Beads</text>
+      </controlProperties>
+    </control>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Image" x="1406" y="360" w="67" h="40" measuredW="120" measuredH="50" zOrder="173" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <size>10</size>
+        <src>http%3A//www.kendorwood.com/Panel/panel_UAR.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::PointyButton" x="1590" y="321" w="70" h="-1" measuredW="70" measuredH="27" zOrder="174" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>left</direction>
+        <text>Previous</text>
+      </controlProperties>
+    </control>
+    <control controlID="204" controlTypeID="com.balsamiq.mockups::PointyButton" x="1722" y="322" w="70" h="-1" measuredW="47" measuredH="27" zOrder="175" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Next</text>
+      </controlProperties>
+    </control>
+    <control controlID="205" controlTypeID="com.balsamiq.mockups::Canvas" x="1590" y="348" w="198" h="67" measuredW="100" measuredH="70" zOrder="176" locked="false" isInGroup="-1"/>
+    <control controlID="206" controlTypeID="com.balsamiq.mockups::Image" x="1665" y="319" w="49" h="28" measuredW="120" measuredH="120" zOrder="177" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Species/ash.jpg</src>
+        <text>ash</text>
+      </controlProperties>
+    </control>
+    <control controlID="207" controlTypeID="com.balsamiq.mockups::Image" x="1597" y="359" w="58" h="40" measuredW="65" measuredH="50" zOrder="178" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//www.kendorwood.com/Outer/outer_A.png</src>
+        <text>A</text>
+      </controlProperties>
+    </control>
+    <control controlID="208" controlTypeID="com.balsamiq.mockups::Image" x="1655" y="358" w="57" h="41" measuredW="70" measuredH="50" zOrder="179" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <src>http%3A//www.kendorwood.com/Inner/inner_2.png</src>
+        <text>2%20Beads</text>
+      </controlProperties>
+    </control>
+    <control controlID="209" controlTypeID="com.balsamiq.mockups::Image" x="1712" y="360" w="67" h="40" measuredW="120" measuredH="50" zOrder="180" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <size>10</size>
+        <src>http%3A//www.kendorwood.com/Panel/panel_UAR.png</src>
+        <text/>
       </controlProperties>
     </control>
   </controls>
