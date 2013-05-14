@@ -5,3 +5,7 @@
 	align:center;
 	text-align:center
 }
+
+.galleryList {
+	list-style:none;
+}
