@@ -1,6 +1,6 @@
 var galaxy = new CanvasZoom( {
         'canvas' : document.getElementById('zoomCanvas'),
-        'tilesFolder' : "/Doors/Alder_FM_J_W_RAISEDPANELDRF_24",
+        'tilesFolder' : "/Doors/Alder_FM_J_W_RAISEDPANELDRF_24/",
         'imageWidth' : 3830,
         'imageHeight' : 2360,
         'drawBorder' : false,

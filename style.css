@@ -9,3 +9,7 @@
 .galleryList {
 	list-style:none;
 }
+
+.imgLeftFix {
+	margin-left: -4px;
+}
