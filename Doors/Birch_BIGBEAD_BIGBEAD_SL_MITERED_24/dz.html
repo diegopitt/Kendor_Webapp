@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 <body bgcolor="#FFFFFF" text="#000000">
-  <div data-role="page" id="canvasPage">
+  <div data-role="page">
     <div data-role="header">
       <a href="#" data-rel="back">Back</a>
       <h1>Kendor Wood</h1>
@@ -14,7 +14,7 @@
     </div>
     <div data-role="content">
         <div class="center-wrapper">
-          <canvas id="zoomCanvas" width="350" height="150"></canvas>
+          <canvas id="zoomCanvas" width="180" height="240"></canvas>
         </div>
         <div class="center-wrapper">
           <a href="#" onclick="galaxy.zoomInCentre()" data-inline="true" data-role="button" data-corners="false">Zoom In</a>
@@ -22,17 +22,17 @@
         </div>
     </div>
     <script>
-      var galaxy = new CanvasZoom( {
+          var galaxy = new CanvasZoom( {
             'canvas' : document.getElementById('zoomCanvas'),
-            'tilesFolder' : "../Alder_FM_J_W_RAISEDPANELDRF_24",
-            'imageWidth' : 3707,
-            'imageHeight' : 1584,
+            'tilesFolder' : "../Birch_BIGBEAD_BIGBEAD_SL_MITERED_24",
+            'imageWidth' : 2066,
+            'imageHeight' : 2998,
             'drawBorder' : false,
             /*'defaultZoom' : 8,
             'maxZoom' : 8*/
             'minZoom' : 5
-      });
+    } );
     </script>
-  </div>  
+  </div>
 </body>
 </html>
