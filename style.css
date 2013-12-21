@@ -13,3 +13,7 @@
 .imgLeftFix {
 	margin-left: -4px;
 }
+
+.btnMarginBottom {
+	bottom: 15px;
+}
