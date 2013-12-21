@@ -14,6 +14,12 @@
 	margin-left: -4px;
 }
 
-.btnMarginBottom {
-	bottom: 15px;
+@media only screen and (max-width: 760px) {
+  #outerImg { width: 40px; }
+  #innerImg { width: 43px; }
+  #panelImg { width: 76px; }
+  #speciesImg { 
+  	width: 40px;
+  	height: 40px;
+  }
 }
