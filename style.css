@@ -16,7 +16,10 @@
 
 @media only screen and (max-width: 760px) {
   #outerImg { width: 40px; }
-  #innerImg { width: 43px; }
+  #innerImg { 
+  	margin-left: -5px;
+  	width: 43px;
+  }
   #panelImg { width: 76px; }
   #speciesImg { 
   	width: 40px;
