@@ -4,6 +4,11 @@
 <title>Welcome to Kendor Mobile</title>
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/imageloader.min.js"></script>
+<script type="text/javascript" src="js/canvaszoom.min.js"></script>
 </head>
 <body bgcolor="#FFFFFF" text="#000000">
   <div data-role="page">
@@ -12,127 +17,126 @@
       <h1>Kendor Wood</h1>
       <a href="#">Forward</a>
     </div>
-    <div data-role="content">
+    <div id="container" data-role="content">
       <div data-role="collapsible-set" id="outer-collapsible">
         <div data-role="collapsible">
           <h2 id="speciesText">Select Species</h2>
           <ul id="speciesList" data-role="listview">
-            <li><img src="/Species/alder.jpg">ALDER</li>
-            <li><img src="/Species/ash.jpg">ASH</li>
-            <li><img src="/Species/birch.jpg">BIRCH</li>
-            <li><img src="/Species/braziliancherry.jpg">BRAZILIAN CHERRY</li>
-            <li><img src="/Species/cherry.jpg">CHERRY</li>
-            <li><img src="/Species/clearpine.jpg">CLEAR PINE</li>
-            <li><img src="/Species/europeanbeech.jpg">EUROPEAN BEECH</li>
-            <li><img src="/Species/hard_maple.jpg">HARD MAPLE</li>
-            <li><img src="/Species/hickory.jpg">HICKORY</li>
-            <li><img src="/Species/knotty_pine.jpg">KNOTTY PINE</li>
-            <li><img src="/Species/knottyalder.jpg">KNOTTY ALDER</li>
-            <li><img src="/Species/lyptus.jpg">LYPTUS</li>
-            <li><img src="/Species/mahogany.jpg">MAHOGANY</li>
-            <li><img src="/Species/maple.jpg">MAPLE</li>
-            <li><img src="/Species/mdf.jpg">MDF</li>
-            <li><img src="/Species/oak.jpg">OAK</li>
-            <li><img src="/Species/pacificcoastmaple.jpg">PACIFIC COAST MAPLE</li>
-            <li><img src="/Species/poplar.jpg">poplar</li>
-            <li><img src="/Species/pw_birch.jpg">PW BIRCH</li>
-            <li><img src="/Species/red_oak.jpg">RED OAK</li>
-            <li><img src="/Species/riftcutredoak.jpg">RIFT CUT RED OAK</li>
-            <li><img src="/Species/rustichickory.jpg">RUSTIC HICKORY</li>
-            <li><img src="/Species/sapele.jpg">SAPELE</li>
-            <li><img src="/Species/sawnredoak.jpg">SAWN RED OAK</li>
-            <li><img src="/Species/sawnwhiteoak.jpg">SAWN WHITE OAK</li>
-            <li><img src="/Species/walnut.jpg">WALNUT</li>
-            <li><img src="/Species/white_oak.jpg">WHITE OAK</li>
+            <li><img id="Alder" src="/Species/alder.jpg">ALDER</li>
+            <li><img id="Ash" src="/Species/ash.jpg">ASH</li>
+            <li><img id="Birch" src="/Species/birch.jpg">BIRCH</li>
+            <li><img id="BrazilianCherry" src="/Species/braziliancherry.jpg">BRAZILIAN CHERRY</li>
+            <li><img id="cherry" src="/Species/cherry.jpg">CHERRY</li>
+            <li><img id="clearpine" src="/Species/clearpine.jpg">CLEAR PINE</li>
+            <li><img id="europeanbeech" src="/Species/europeanbeech.jpg">EUROPEAN BEECH</li>
+            <li><img id="hardmaple" src="/Species/hard_maple.jpg">HARD MAPLE</li>
+            <li><img id="hickory" src="/Species/hickory.jpg">HICKORY</li>
+            <li><img id="knottypine" src="/Species/knotty_pine.jpg">KNOTTY PINE</li>
+            <li><img id="knottyalder" src="/Species/knottyalder.jpg">KNOTTY ALDER</li>
+            <li><img id="lyptus" src="/Species/lyptus.jpg">LYPTUS</li>
+            <li><img id="mahogany" src="/Species/mahogany.jpg">MAHOGANY</li>
+            <li><img id="maple" src="/Species/maple.jpg">MAPLE</li>
+            <li><img id="mdf" src="/Species/mdf.jpg">MDF</li>
+            <li><img id="oak" src="/Species/oak.jpg">OAK</li>
+            <li><img id="pacificcoastmaple" src="/Species/pacificcoastmaple.jpg">PACIFIC COAST MAPLE</li>
+            <li><img id="poplar" src="/Species/poplar.jpg">poplar</li>
+            <li><img id="redoak" src="/Species/red_oak.jpg">RED OAK</li>
+            <li><img id="riftcutredoak" src="/Species/riftcutredoak.jpg">RIFT CUT RED OAK</li>
+            <li><img id="rustichickory" src="/Species/rustichickory.jpg">RUSTIC HICKORY</li>
+            <li><img id="sapele" src="/Species/sapele.jpg">SAPELE</li>
+            <li><img id="sawnredoak" src="/Species/sawnredoak.jpg">SAWN RED OAK</li>
+            <li><img id="sawnwhiteoak" src="/Species/sawnwhiteoak.jpg">SAWN WHITE OAK</li>
+            <li><img id="walnut" src="/Species/walnut.jpg">WALNUT</li>
+            <li><img id="whiteoak" src="/Species/white_oak.jpg">WHITE OAK</li>
           </ul>
         </div>
         <div data-role="collapsible">
           <h2 id="outerText">Select Outer</h2>
           <ul id="outerList" data-role="listview">
-            <li><img src="/Outer/outer_1.png">1</li>
-            <li><img src="/Outer/outer_2.png">2</li>
-            <li><img src="/Outer/outer_A.png">A</li>
-            <li><img src="/Outer/outer_B.png">B</li>
-            <li><img src="/Outer/outer_BIGB.png">BIG B</li>
-            <li><img src="/Outer/outer_C.png">C</li>
-            <li><img src="/Outer/outer_CC.png">CC</li>
-            <li><img src="/Outer/outer_D.png">D</li>
-            <li><img src="/Outer/outer_E.png">E</li>
-            <li><img src="/Outer/outer_F.png">F</li>
-            <li><img src="/Outer/outer_G.png">G</li>
-            <li><img src="/Outer/outer_H.png">H</li>
-            <li><img src="/Outer/outer_I.png">I</li>
-            <li><img src="/Outer/outer_J.png">J</li>
-            <li><img src="/Outer/outer_K.png">K</li>
-            <li><img src="/Outer/outer_L.png">L</li>
-            <li><img src="/Outer/outer_M.png">M</li>
-            <li><img src="/Outer/outer_MM.png">MM</li>
-            <li><img src="/Outer/outer_N.png">N</li>
-            <li><img src="/Outer/outer_O.png">O</li>
+            <li><img id="1" src="/Outer/outer_1.png">1</li>
+            <li><img id="2" src="/Outer/outer_2.png">2</li>
+            <li><img id="A" src="/Outer/outer_A.png">A</li>
+            <li><img id="B" src="/Outer/outer_B.png">B</li>
+            <li><img id="BIGB" src="/Outer/outer_BIGB.png">BIG B</li>
+            <li><img id="C" src="/Outer/outer_C.png">C</li>
+            <li><img id="CC" src="/Outer/outer_CC.png">CC</li>
+            <li><img id="D" src="/Outer/outer_D.png">D</li>
+            <li><img id="E" src="/Outer/outer_E.png">E</li>
+            <li><img id="F" src="/Outer/outer_F.png">F</li>
+            <li><img id="G" src="/Outer/outer_G.png">G</li>
+            <li><img id="H" src="/Outer/outer_H.png">H</li>
+            <li><img id="I" src="/Outer/outer_I.png">I</li>
+            <li><img id="J" src="/Outer/outer_J.png">J</li>
+            <li><img id="K" src="/Outer/outer_K.png">K</li>
+            <li><img id="L" src="/Outer/outer_L.png">L</li>
+            <li><img id="M" src="/Outer/outer_M.png">M</li>
+            <li><img id="MM" src="/Outer/outer_MM.png">MM</li>
+            <li><img id="N" src="/Outer/outer_N.png">N</li>
+            <li><img id="O" src="/Outer/outer_O.png">O</li>
           </ul>
         </div>
         <div data-role="collapsible">
           <h2 id="innerText">Select Inner</h2>
           <ul id="innerList" data-role="listview">
-            <li><img src="/Inner/inner_1.png">1</li>
-            <li><img src="/Inner/inner_2.png">2</li>
-            <li><img src="/Inner/inner_AM.png">AM</li>
-            <li><img src="/Inner/inner_AR.png">AR</li>
-            <li><img src="/Inner/inner_CC.png">CC</li>
-            <li><img src="/Inner/inner_DP.png">DP</li>
-            <li><img src="/Inner/inner_FK.png">FK</li>
-            <li><img src="/Inner/inner_FM.png">FM</li>
-            <li><img src="/Inner/inner_FO.png">FO</li>
-            <li><img src="/Inner/inner_FOOLD.png">FO OLD</li>
-            <li><img src="/Inner/inner_FS.png">FS</li>
-            <li><img src="/Inner/inner_MR.png">MR</li>
-            <li><img src="/Inner/inner_Step.png">Step</li>
-            <li><img src="/Inner/inner_bigbead.png">Big Bead</li>
+            <li><img id="1" src="/Inner/inner_1.png">1</li>
+            <li><img id="2" src="/Inner/inner_2.png">2</li>
+            <li><img id="AM" src="/Inner/inner_AM.png">AM</li>
+            <li><img id="AR" src="/Inner/inner_AR.png">AR</li>
+            <li><img id="CC" src="/Inner/inner_CC.png">CC</li>
+            <li><img id="DP" src="/Inner/inner_DP.png">DP</li>
+            <li><img id="FK" src="/Inner/inner_FK.png">FK</li>
+            <li><img id="FM" src="/Inner/inner_FM.png">FM</li>
+            <li><img id="FO" src="/Inner/inner_FO.png">FO</li>
+            <li><img id="FOOLD" src="/Inner/inner_FOOLD.png">FO OLD</li>
+            <li><img id="FS" src="/Inner/inner_FS.png">FS</li>
+            <li><img id="MR" src="/Inner/inner_MR.png">MR</li>
+            <li><img id="Step" src="/Inner/inner_Step.png">Step</li>
+            <li><img id="BIGBEAD" src="/Inner/inner_bigbead.png">Big Bead</li>
           </ul>
         </div>
         <div data-role="collapsible">
           <h2 id="panelText">Select Panel</h2>
           <ul id="panelList" data-role="listview">
-            <li><img src="/Panel/panel_CC-Drf.png">CC-Drf</li>
-            <li><img src="/Panel/panel_CC-DrfFO.png">CC-Drf FO</li>
-            <li><img src="/Panel/panel_CC.png">CC</li>
-            <li><img src="/Panel/panel_CCFO.png">CC FO</li>
-            <li><img src="/Panel/panel_SL.png">SL</li>
-            <li><img src="/Panel/panel_SLB.png">SLB</li>
-            <li><img src="/Panel/panel_SLBFO.png">SLB FO</li>
-            <li><img src="/Panel/panel_SLFO.png">SL FO</li>
-            <li><img src="/Panel/panel_SLV.png">SLV</li>
-            <li><img src="/Panel/panel_SLVFO.png">SLV FO</li>
-            <li><img src="/Panel/panel_U.png">U</li>
-            <li><img src="/Panel/panel_UAR.png">UAR</li>
-            <li><img src="/Panel/panel_UARD.png">UARD</li>
-            <li><img src="/Panel/panel_UARDFO.png">UARD FO</li>
-            <li><img src="/Panel/panel_UARFO.png">UAR FO</li>
-            <li><img src="/Panel/panel_UFO.png">U FO</li>
-            <li><img src="/Panel/panel_V.png">V</li>
-            <li><img src="/Panel/panel_VFO.png">VFO</li>
-            <li><img src="/Panel/panel_W.png">W</li>
-            <li><img src="/Panel/panel_WFO.png">WFO</li>
-            <li><img src="/Panel/panel_X.png">X</li>
-            <li><img src="/Panel/panel_XFO.png">XFO</li>
-            <li><img src="/Panel/panel_Y.png">Y</li>
-            <li><img src="/Panel/panel_YFO.png">YFO</li>
+            <li><img id="CCDRF" src="/Panel/panel_CC-Drf.png">CC-Drf</li>
+            <li><img id="CCDRFFO" src="/Panel/panel_CC-DrfFO.png">CC-Drf FO</li>
+            <li><img id="CC" src="/Panel/panel_CC.png">CC</li>
+            <li><img id="CCFO" src="/Panel/panel_CCFO.png">CC FO</li>
+            <li><img id="SL" src="/Panel/panel_SL.png">SL</li>
+            <li><img id="SLB" src="/Panel/panel_SLB.png">SLB</li>
+            <li><img id="SLBFO" src="/Panel/panel_SLBFO.png">SLB FO</li>
+            <li><img id="SLFO" src="/Panel/panel_SLFO.png">SL FO</li>
+            <li><img id="SLV" src="/Panel/panel_SLV.png">SLV</li>
+            <li><img id="SLVFO" src="/Panel/panel_SLVFO.png">SLV FO</li>
+            <li><img id="U" src="/Panel/panel_U.png">U</li>
+            <li><img id="UAR" src="/Panel/panel_UAR.png">UAR</li>
+            <li><img id="UARD" src="/Panel/panel_UARD.png">UARD</li>
+            <li><img id="UARDFO" src="/Panel/panel_UARDFO.png">UARD FO</li>
+            <li><img id="UARFO" src="/Panel/panel_UARFO.png">UAR FO</li>
+            <li><img id="UFO" src="/Panel/panel_UFO.png">U FO</li>
+            <li><img id="V" src="/Panel/panel_V.png">V</li>
+            <li><img id="VFO" src="/Panel/panel_VFO.png">VFO</li>
+            <li><img id="W" src="/Panel/panel_W.png">W</li>
+            <li><img id="WFO" src="/Panel/panel_WFO.png">WFO</li>
+            <li><img id="X" src="/Panel/panel_X.png">X</li>
+            <li><img id="XFO" src="/Panel/panel_XFO.png">XFO</li>
+            <li><img id="Y" src="/Panel/panel_Y.png">Y</li>
+            <li><img id="YFO" src="/Panel/panel_YFO.png">YFO</li>
           </ul>
         </div>
         <div data-role="collapsible">
           <h2 id="styleText">Select Style</h2>
           <ul id="styleList" data-role="listview">
-            <li>Drawer</li>
-            <li>Square Wainscoting</li>
-            <li>Square</li>
-            <li>Arch</li>
-            <li>1/2 Arch</li>
-            <li>Continuous</li>
-            <li>1/2 Continuous</li>
-            <li>Provincial</li>
-            <li>Mitered</li>
-            <li>Keyhole</li>
-            <li>Raised Panel Drf.</li>
+            <li id="drawer">Drawer</li>
+            <li id="squarewainscoting">Square Wainscoting</li>
+            <li id="square">Square</li>
+            <li id="arch">Arch</li>
+            <li id="halfarch">1/2 Arch</li>
+            <li id="continuous">Continuous</li>
+            <li id="halfcontinuous">1/2 Continuous</li>
+            <li id="provincial">Provincial</li>
+            <li id="mitered">Mitered</li>
+            <li id="keyhole">Keyhole</li>
+            <li id="raisedpaneldrf">Raised Panel Drf.</li>
           </ul>
         </div>
     </div>
@@ -142,35 +146,60 @@
       <img class='imgLeftFix' id="innerImg">
       <img class='imgLeftFix' id="panelImg">
       <a id="previewButton" data-role="button" class="ui-btn-right" href="#">Preview</a>
+      <div id="styleImg"></div>
+      <div id="doorDir" name="dirDir"></div>
     </div>
     </div>
     <script>
+
+        function buildDoorDir(){
+
+            return $("#speciesImg").attr('srcId') + "_" + $("#innerImg").attr('srcId') + "_" + $("#outerImg").attr('srcId') + "_" + $("#panelImg").attr('srcId') + "_" + $("#styleImg").attr('srcId');
+        };
+
+        var that = this;
         $('#styleList').on('click', 'li', function(evt) {
             $('#styleList').trigger('collapse'); // id of clicked li by directly accessing DOMElement property
             $('#styleText .ui-btn-text').text("Select Style - " + $(evt.currentTarget).text());
-            $('#styleImg').attr("src", $(evt.currentTarget).find('img').attr('src'));
+            $('#styleImg').attr("src", $(evt.currentTarget).attr('id'));
+            var srcId = $(evt.currentTarget).attr('id');
+            $('#styleImg').attr('srcId', srcId);
+            $('#doorDir').attr("src", that.buildDoorDir());
         });
         $('#panelList').on('click', 'li', function(evt) {
             $('#panelList').trigger('collapse'); // id of clicked li by directly accessing DOMElement property
             $('#panelText .ui-btn-text').text("Select Panel - " + $(evt.currentTarget).text());
             $('#panelImg').attr("src", $(evt.currentTarget).find('img').attr('src'));
+            var srcId = $(evt.currentTarget).find('img').attr('id');
+            $('#panelImg').attr('srcId', srcId);
+            $('#doorDir').attr("src", that.buildDoorDir());
         });
         $('#innerList').on('click', 'li', function(evt) {
             $('#innerList').trigger('collapse'); // id of clicked li by directly accessing DOMElement property
             $('#innerText .ui-btn-text').text("Select Inner - " + $(evt.currentTarget).text());
             $('#innerImg').attr("src", $(evt.currentTarget).find('img').attr('src'));
+            var srcId = $(evt.currentTarget).find('img').attr('id');
+            $('#innerImg').attr('srcId', srcId);
+            $('#doorDir').attr("src", that.buildDoorDir());
         });
         $('#outerList').on('click', 'li', function(evt) {
             $('#outerList').trigger('collapse'); // id of clicked li by directly accessing DOMElement property
             $('#outerText .ui-btn-text').text("Select Outer - " + $(evt.currentTarget).text());
             $('#outerImg').attr("src", $(evt.currentTarget).find('img').attr('src'));
+            var srcId = $(evt.currentTarget).find('img').attr('id');
+            $('#outerImg').attr('srcId', srcId);
+            $('#doorDir').attr("src", that.buildDoorDir());
         });
         $('#speciesList').on('click', 'li', function(evt) {
             $('#speciesList').trigger('collapse'); // id of clicked li by directly accessing DOMElement property
             $('#speciesText .ui-btn-text').text("Select Species - " + $(evt.currentTarget).text());
             $('#speciesImg').attr("src", $(evt.currentTarget).find('img').attr('src'));
+            var srcId = $(evt.currentTarget).find('img').attr('id');
+            $('#speciesImg').attr('srcId', srcId);
+            $('#doorDir').attr("src", that.buildDoorDir());
         });
     </script>
   </div>
 </body>
+<script type="text/javascript" src="js/getDoor.js"></script>
 </html>

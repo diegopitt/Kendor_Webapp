@@ -1,4 +1,4 @@
-$('#send-feedback').click(function() {
+$('#send-feedback').bind("click tap", function() {
 	var url = 'api/send.php';
 	var error = 0;
 	var $contactpage = $(this).closest('.ui-page');
