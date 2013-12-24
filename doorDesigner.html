@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="js/imageloader.min.js"></script>
 <script type="text/javascript" src="js/canvaszoom.min.js"></script>
+
 </head>
 <body bgcolor="#FFFFFF" text="#000000">
   <div data-role="page">
@@ -152,7 +153,32 @@
     </div>
     </div>
     <script>
-
+        $('#previewButton').bind("click tap", function() {
+            var url = 'api/getDoor.php';
+            $.ajax({
+                type: "GET",
+                url: url,
+                data: {doorDir:$("#doorDir").attr("src")},
+                success: function (data) {
+                    if (data != 'false') {
+                        //alert("Directing you to the door");
+                        $.mobile.changePage("../Doors/" + data + "/dz.html");
+                    }  else {
+                        alert('Unable to find a preview for this door. Please try again.');
+                    }
+                },
+                complete: function (xhr, status) {
+                    if (status === 'error' || !xhr.responseText) {
+                        handleError();
+                    }
+                    else {
+                        var data = xhr.responseText;
+                        //...
+                    }
+                }
+            });
+            return false;
+        });
         function buildDoorDir(){
 
             return $("#speciesImg").attr('srcId') + "_" + $("#innerImg").attr('srcId') + "_" + $("#outerImg").attr('srcId') + "_" + $("#panelImg").attr('srcId') + "_" + $("#styleImg").attr('srcId');
@@ -202,5 +228,4 @@
     </script>
   </div>
 </body>
-<script type="text/javascript" src="js/getDoor.js"></script>
 </html>
